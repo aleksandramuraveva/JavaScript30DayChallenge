@@ -8,8 +8,12 @@ const audio = document.querySelectorAll("audio");
 
 const keysArr = Array.from(keys);
 
-keysArr.forEach(key => key.classList.add("playing"));
 
+keysArr.forEach(key => {
+	key.addEventListener("click", function(){
+		key.classList.add("playing");
+	});
 
+})
 
 
