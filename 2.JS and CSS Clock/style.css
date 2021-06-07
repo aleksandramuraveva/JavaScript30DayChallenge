@@ -43,4 +43,11 @@ html {
       background: black;
       position: absolute;
       top: 50%;
+      transform: rotate(0deg);
+      transform-origin: bottom right;
+    }
+
+
+    .second-hand {
+      transform: rotate(0deg);
     }
