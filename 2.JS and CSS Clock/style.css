@@ -51,3 +51,8 @@ html {
     .second-hand {
       transform: rotate(0deg);
     }
+
+
+    .min-hand {
+      transform: rotate(0deg);
+    }
