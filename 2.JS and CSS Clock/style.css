@@ -56,3 +56,8 @@ html {
     .min-hand {
       transform: rotate(0deg);
     }
+
+
+    .hour-hand {
+      transform: rotate(0deg);
+    }
