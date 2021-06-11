@@ -32,10 +32,14 @@ const secondHand = document.querySelector(".second-hand");
 
 
 
-пробуем с return............
 
-if (time.getSeconds() === 0) {
-secondHand.style.transform = "rotate(90deg)"
 
-// secondHand.style.transform = `rotate(${sec}deg)`;
-}
+setInterval(function showSeconds(){
+	let time = new Date()
+	let seconds = time.getSeconds();
+	let degrees = (seconds * 6) + 90
+	console.log(seconds)
+	secondHand.style.transform = `rotate(${degrees}deg)`
+},1000)
+
+

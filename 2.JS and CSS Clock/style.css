@@ -43,7 +43,7 @@ html {
       background: black;
       position: absolute;
       top: 50%;
-      transform: rotate(0deg);
+      transform: rotate(90deg);
       transform-origin: bottom right;
     }
 
